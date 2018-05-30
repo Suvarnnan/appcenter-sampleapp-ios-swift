@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF015FF320BD4B9500F57798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF015FF220BD4B9500F57798 /* AppDelegate.swift */; };
+		DF015FF520BD4B9500F57798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF015FF420BD4B9500F57798 /* ViewController.swift */; };
+		DF015FF820BD4B9500F57798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF015FF620BD4B9500F57798 /* Main.storyboard */; };
+		DF015FFB20BD4B9500F57798 /* Realiable_Burgers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF015FF920BD4B9500F57798 /* Realiable_Burgers.xcdatamodeld */; };
+		DF015FFD20BD4B9500F57798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF015FFC20BD4B9500F57798 /* Assets.xcassets */; };
+		DF01600020BD4B9500F57798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF015FFE20BD4B9500F57798 /* LaunchScreen.storyboard */; };
+		DF01600B20BD4B9500F57798 /* Realiable_BurgersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF01600A20BD4B9500F57798 /* Realiable_BurgersTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF01600720BD4B9500F57798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF015FE720BD4B9500F57798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF015FEE20BD4B9500F57798;
+			remoteInfo = "Realiable Burgers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF015FEF20BD4B9500F57798 /* Realiable Burgers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realiable Burgers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF015FF220BD4B9500F57798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF015FF420BD4B9500F57798 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF015FF720BD4B9500F57798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF015FFA20BD4B9500F57798 /* Realiable_Burgers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Realiable_Burgers.xcdatamodel; sourceTree = "<group>"; };
+		DF015FFC20BD4B9500F57798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF015FFF20BD4B9500F57798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF01600120BD4B9500F57798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF01600620BD4B9500F57798 /* Realiable BurgersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Realiable BurgersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF01600A20BD4B9500F57798 /* Realiable_BurgersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realiable_BurgersTests.swift; sourceTree = "<group>"; };
+		DF01600C20BD4B9500F57798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF015FEC20BD4B9500F57798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF01600320BD4B9500F57798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF015FE620BD4B9500F57798 = {
+			isa = PBXGroup;
+			children = (
+				DF015FF120BD4B9500F57798 /* Realiable Burgers */,
+				DF01600920BD4B9500F57798 /* Realiable BurgersTests */,
+				DF015FF020BD4B9500F57798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF015FF020BD4B9500F57798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF015FEF20BD4B9500F57798 /* Realiable Burgers.app */,
+				DF01600620BD4B9500F57798 /* Realiable BurgersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF015FF120BD4B9500F57798 /* Realiable Burgers */ = {
+			isa = PBXGroup;
+			children = (
+				DF015FF220BD4B9500F57798 /* AppDelegate.swift */,
+				DF015FF420BD4B9500F57798 /* ViewController.swift */,
+				DF015FF620BD4B9500F57798 /* Main.storyboard */,
+				DF015FFC20BD4B9500F57798 /* Assets.xcassets */,
+				DF015FFE20BD4B9500F57798 /* LaunchScreen.storyboard */,
+				DF01600120BD4B9500F57798 /* Info.plist */,
+				DF015FF920BD4B9500F57798 /* Realiable_Burgers.xcdatamodeld */,
+			);
+			path = "Realiable Burgers";
+			sourceTree = "<group>";
+		};
+		DF01600920BD4B9500F57798 /* Realiable BurgersTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF01600A20BD4B9500F57798 /* Realiable_BurgersTests.swift */,
+				DF01600C20BD4B9500F57798 /* Info.plist */,
+			);
+			path = "Realiable BurgersTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF015FEE20BD4B9500F57798 /* Realiable Burgers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF01600F20BD4B9500F57798 /* Build configuration list for PBXNativeTarget "Realiable Burgers" */;
+			buildPhases = (
+				DF015FEB20BD4B9500F57798 /* Sources */,
+				DF015FEC20BD4B9500F57798 /* Frameworks */,
+				DF015FED20BD4B9500F57798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Realiable Burgers";
+			productName = "Realiable Burgers";
+			productReference = DF015FEF20BD4B9500F57798 /* Realiable Burgers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF01600520BD4B9500F57798 /* Realiable BurgersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF01601220BD4B9500F57798 /* Build configuration list for PBXNativeTarget "Realiable BurgersTests" */;
+			buildPhases = (
+				DF01600220BD4B9500F57798 /* Sources */,
+				DF01600320BD4B9500F57798 /* Frameworks */,
+				DF01600420BD4B9500F57798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF01600820BD4B9500F57798 /* PBXTargetDependency */,
+			);
+			name = "Realiable BurgersTests";
+			productName = "Realiable BurgersTests";
+			productReference = DF01600620BD4B9500F57798 /* Realiable BurgersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF015FE720BD4B9500F57798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Technology Evaluation Team";
+				TargetAttributes = {
+					DF015FEE20BD4B9500F57798 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DF01600520BD4B9500F57798 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF015FEE20BD4B9500F57798;
+					};
+				};
+			};
+			buildConfigurationList = DF015FEA20BD4B9500F57798 /* Build configuration list for PBXProject "Realiable Burgers" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF015FE620BD4B9500F57798;
+			productRefGroup = DF015FF020BD4B9500F57798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF015FEE20BD4B9500F57798 /* Realiable Burgers */,
+				DF01600520BD4B9500F57798 /* Realiable BurgersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF015FED20BD4B9500F57798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF01600020BD4B9500F57798 /* LaunchScreen.storyboard in Resources */,
+				DF015FFD20BD4B9500F57798 /* Assets.xcassets in Resources */,
+				DF015FF820BD4B9500F57798 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF01600420BD4B9500F57798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF015FEB20BD4B9500F57798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF015FFB20BD4B9500F57798 /* Realiable_Burgers.xcdatamodeld in Sources */,
+				DF015FF520BD4B9500F57798 /* ViewController.swift in Sources */,
+				DF015FF320BD4B9500F57798 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF01600220BD4B9500F57798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF01600B20BD4B9500F57798 /* Realiable_BurgersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF01600820BD4B9500F57798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF015FEE20BD4B9500F57798 /* Realiable Burgers */;
+			targetProxy = DF01600720BD4B9500F57798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF015FF620BD4B9500F57798 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF015FF720BD4B9500F57798 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF015FFE20BD4B9500F57798 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF015FFF20BD4B9500F57798 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF01600D20BD4B9500F57798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF01600E20BD4B9500F57798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF01601020BD4B9500F57798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBE69W99Z3;
+				INFOPLIST_FILE = "Realiable Burgers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siemens.Realiable-Burgers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF01601120BD4B9500F57798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBE69W99Z3;
+				INFOPLIST_FILE = "Realiable Burgers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siemens.Realiable-Burgers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF01601320BD4B9500F57798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBE69W99Z3;
+				INFOPLIST_FILE = "Realiable BurgersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siemens.Realiable-BurgersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Realiable Burgers.app/Realiable Burgers";
+			};
+			name = Debug;
+		};
+		DF01601420BD4B9500F57798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBE69W99Z3;
+				INFOPLIST_FILE = "Realiable BurgersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siemens.Realiable-BurgersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Realiable Burgers.app/Realiable Burgers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF015FEA20BD4B9500F57798 /* Build configuration list for PBXProject "Realiable Burgers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF01600D20BD4B9500F57798 /* Debug */,
+				DF01600E20BD4B9500F57798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF01600F20BD4B9500F57798 /* Build configuration list for PBXNativeTarget "Realiable Burgers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF01601020BD4B9500F57798 /* Debug */,
+				DF01601120BD4B9500F57798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF01601220BD4B9500F57798 /* Build configuration list for PBXNativeTarget "Realiable BurgersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF01601320BD4B9500F57798 /* Debug */,
+				DF01601420BD4B9500F57798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF015FF920BD4B9500F57798 /* Realiable_Burgers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF015FFA20BD4B9500F57798 /* Realiable_Burgers.xcdatamodel */,
+			);
+			currentVersion = DF015FFA20BD4B9500F57798 /* Realiable_Burgers.xcdatamodel */;
+			path = Realiable_Burgers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF015FE720BD4B9500F57798 /* Project object */;
+}
