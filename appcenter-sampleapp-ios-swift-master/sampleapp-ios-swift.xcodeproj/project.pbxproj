@@ -32,9 +32,6 @@
 		4CF7847DECF91A1AD126D8F4 /* Pods_sampleapp_ios_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleapp_ios_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F01A594D9B5CE89868FAD07 /* Pods-sampleapp-ios-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleapp-ios-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sampleapp-ios-swift/Pods-sampleapp-ios-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		552E9B1CAA5E604F5301907D /* Pods-sampleapp-ios-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleapp-ios-swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sampleapp-ios-swiftUITests/Pods-sampleapp-ios-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DB089F8C1DC5C5869A4EC277 /* Pods_sampleapp_ios_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleapp_ios_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F02E65BD1F1454DC00F657C9 /* sampleapp_ios_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleapp_ios_swiftUITests.swift; sourceTree = "<group>"; };
-		F02E65BF1F1454DC00F657C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0DDF9751F157DCF00530C9B /* sampleapp-ios-swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "sampleapp-ios-swift.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				265586EF1EF88770001914FC /* sampleapp-ios-swift */,
-				F02E65BC1F1454DC00F657C9 /* sampleapp-ios-swiftUITests */,
 				265586EE1EF88770001914FC /* Products */,
 				A0A1D218C944D82D2185DFD5 /* Pods */,
 				C24EBEBD1933807FEF9C2645 /* Frameworks */,
@@ -100,18 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				4CF7847DECF91A1AD126D8F4 /* Pods_sampleapp_ios_swift.framework */,
-				DB089F8C1DC5C5869A4EC277 /* Pods_sampleapp_ios_swiftUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F02E65BC1F1454DC00F657C9 /* sampleapp-ios-swiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F02E65BD1F1454DC00F657C9 /* sampleapp_ios_swiftUITests.swift */,
-				F02E65BF1F1454DC00F657C9 /* Info.plist */,
-			);
-			path = "sampleapp-ios-swiftUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
