@@ -193,7 +193,7 @@
 					265586EC1EF88770001914FC = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = JBE69W99Z3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 0;
@@ -202,6 +202,7 @@
 					};
 					F02E65BA1F1454DC00F657C9 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JBE69W99Z3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 265586EC1EF88770001914FC;
 					};
@@ -498,15 +499,15 @@
 			baseConfigurationReference = 4F01A594D9B5CE89868FAD07 /* Pods-sampleapp-ios-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = JBE69W99Z3;
 				INFOPLIST_FILE = "$(SRCROOT)/sampleapp-ios-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.appcenter.sampleapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "c0d83a2a-c026-499c-85f8-365a1b3a8953";
+				PROVISIONING_PROFILE_SPECIFIER = appcentersample;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -517,15 +518,15 @@
 			baseConfigurationReference = 1FF790B40477C2F03557AC20 /* Pods-sampleapp-ios-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = JBE69W99Z3;
 				INFOPLIST_FILE = "$(SRCROOT)/sampleapp-ios-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.appcenter.sampleapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "c0d83a2a-c026-499c-85f8-365a1b3a8953";
+				PROVISIONING_PROFILE_SPECIFIER = appcentersample;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -535,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 552E9B1CAA5E604F5301907D /* Pods-sampleapp-ios-swiftUITests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JBE69W99Z3;
 				INFOPLIST_FILE = "sampleapp-ios-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sampleapp-ios-swiftUITests";
@@ -549,6 +551,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07D8DC3DFAD6FFDFFD74D804 /* Pods-sampleapp-ios-swiftUITests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = JBE69W99Z3;
 				INFOPLIST_FILE = "sampleapp-ios-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sampleapp-ios-swiftUITests";
